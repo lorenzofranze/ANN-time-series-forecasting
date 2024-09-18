@@ -8,6 +8,11 @@ The goal of the project is to design and implement forecasting models to learn h
 
 [Link to the dataset](https://drive.google.com/drive/u/0/folders/1127Igo4_-CgMiVyRzG5aCiKEq0z9Kiwa)
 
+Dataset Details:
+* Time series length: the length of the time series in the training dataset is variable. To simplify the portability of the dataset, we padded with zeros the sequences to the maximum length of 2776. Thus, the dataset is provided in a compact form as a Nx2776 array. We provide an additional 'valid_periods.npy' file containing the information to recover the original time series without the padding.
+* File Format: npy
+* Categories: the provided time series are composed by sequences collected from 6 different sources. We further provide additional information about the category of each time series.
+
 Single folder containing the following files:
 * 'training_data.npy': it contains a numpy array of shape (48000, 2776). 48000 time series of length 2776.
 * 'valid_periods.npy': it contains a numpy array of type (48000, 2) containing for each of the time series the start and end index of the current series, i.e. the part without padding.
