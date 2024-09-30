@@ -14,9 +14,9 @@ We built an ensemble model where we trained different models for each of the dif
 ### Methodology
 - Data exploration and preprocessing
 - Models
-  - Models based on category splitting
-  - Pure biLSTM approach: this model includes a bidirectional LSTM with 2 convolutional layers and a final cropping layer
-  - Seq2seq approach:  seq2seq architecture with an incorporated attention mechanism, the architecture comprised an encoder LSTM, passing its final state to a decoder LSTM as repeated input.
+  - **Models based on category splitting**
+  - **Pure biLSTM approach**: this model includes a bidirectional LSTM with 2 convolutional layers and a final cropping layer
+  - **Seq2seq approach**:  seq2seq architecture with an incorporated attention mechanism, the architecture comprised an encoder LSTM, passing its final state to a decoder LSTM as repeated input.
 - Evaluations on test set
 
 ## Dataset Structure
