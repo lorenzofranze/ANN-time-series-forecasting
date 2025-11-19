@@ -5,8 +5,8 @@
 The goal of the project is to design and implement forecasting models to learn how to exploit past observations in the input sequences to correctly predict the future. The task is to develop a forecasting model that is able to predict several uncorrelated time series. The prerequisite is that the model exhibits generalisation capabilities in the forecasting domain, allowing it to transcend constraints of specific time domains. This requires a model that, while specialised in forecasting, is not limited to predicting in a single or predefined time context.
 The model learns from a set of possible categories time series. **Attention model** with **Transformer architecture** turns out to be the best. However, in line with the project labs, the final anlayezed solution employed a **encoder-decoder** architecture with **LSTM** layers for a **seq2seq** approach.
 
-<img width="1131" height="626" alt="example_lines" src="https://github.com/user-attachments/assets/8d779c12-4973-4a29-b750-1fe51b26e6b4" />
-<img width="1121" height="197" alt="Cattura_2" src="https://github.com/user-attachments/assets/491d9fb9-f018-4481-b3c5-47f05f73b2c2" />
+<img width="1131" height="626" alt="example_lines" src="https://github.com/lorenzofranze/ANN-time-series-forecasting/blob/main/images/examples.PNG" />
+<img width="1121" height="197" alt="Cattura_2" src="https://github.com/lorenzofranze/ANN-time-series-forecasting/blob/main/images/prediction.PNG" />
 
 
 ## Project structure and models
