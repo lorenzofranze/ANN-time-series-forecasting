@@ -3,7 +3,7 @@
 *Developed between November and December 2023 at Politecnico di Milano*
 
 The goal of the project is to design and implement forecasting models to learn how to exploit past observations in the input sequences to correctly predict the future. The task is to develop a forecasting model that is able to predict several uncorrelated time series. The prerequisite is that the model exhibits generalisation capabilities in the forecasting domain, allowing it to transcend constraints of specific time domains. This requires a model that, while specialised in forecasting, is not limited to predicting in a single or predefined time context.
-The model learns from a set of possible categories time series. **Attention model** with **Transformer architecture** turns out to be the best
+The model learns from a set of possible categories time series. **Attention model** with **Transformer architecture** turns out to be the best. However, in line with the project labs, the final anlayezed solution employed a **encoder-decoder** architecture with **LSTM** layers for a **seq2seq** approach.
 
 ## Project structure and models
 Have a look at the [report](https://github.com/lorenzofranze/ANN-time-series-forecasting/blob/main/report.pdf) to see the result of the analysis.
